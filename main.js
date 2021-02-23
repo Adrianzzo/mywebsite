@@ -14,6 +14,7 @@ app.get('/infos', (req, res) => {
   res.send('this is infos')
 })
 
+console.log("something new");
 
 
 app.listen(port, () => {
